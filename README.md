@@ -40,6 +40,18 @@
 #담당 업무</h2>
 <hr>
 <p> 
+남연우  <br>
+FRONTEND  <br>
+<br>
+이유주  <br>
+FRONTEND <br>
+<br>
+송아영  <br>
+FRONTEND  <br>
+<br>
+강지민  <br>
+FRONTEND  <br>
+<br>
 임창현  <br>
 BACKEND  <br>
 INITIAL SETTING  <br>
