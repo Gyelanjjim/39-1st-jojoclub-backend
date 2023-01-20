@@ -1,21 +1,26 @@
 # WEMALONE
 
-<img src="https://velog.velcdn.com/images/scroll0908/post/1b9188e2-08a0-432f-966b-2bb624ff71e8/image.gif"/>
+<img src="https://i.ibb.co/725kkWj/2022-11-28-1-23-00.png"
+/>
 
 
-## 프로젝트 소개
-- [데모 영상 링크](https://youtu.be/cUgrQdEAlaM)
+## 📈 프로젝트 소개
+[데모 영상 링크](https://youtu.be/cUgrQdEAlaM)
 <p>
-향수 판매 웹사이트(Jomalone)을 모델링 한 프로젝트. 
-Smell is a word, perfume is literature. 
-다양한 향의 향수를 소개합니다. 소중한 사람들에게 선물하세요. 필터링을 통해 원하는 향을 찾아보세요. 내가 고른 향에 scent fairing을 추천받아보세요.<p>
+향수 판매 웹사이트(Jomalone)을 모델링 한 프로젝트. <br />
+Smell is a word, perfume is literature. <br />
+다양한 향의 향수를 소개합니다. 소중한 사람들에게 선물하세요. <br /> 
+필터링을 통해 원하는 향을 찾아보세요. <br />
+내가 고른 향에 scent fairing을 추천받아보세요.<p>
 
 
-## 개발인원 및 기간
-- Front-end 4명, Back-end 2명
+## 👥 개발인원
+- Front-end 강지민, 남연우, 송아영, 이유주(4명), Back-end 송철진, 임창현(2명)
+
+## 📆 기간
 - 2022/11/14 ~ 2022/11/25
   
-## 기술 Stack
+## 🛠️ 기술 Stack
 
 ### Front-End
 <div>
@@ -40,7 +45,7 @@ Smell is a word, perfume is literature.
 - common : Git, GitHub, AWS, Prettier, TablePlus
 - 협업툴 : Notion, Slack, Trello, PostMan, DBdiagram
 
-## 구현 
+## ✅ 구현  
 <table>
   <th>기능</th>
   <th>설명</th>
@@ -81,7 +86,7 @@ Smell is a word, perfume is literature.
   </tr>
 </table>
 
-## 담당 업무
+## ⭐️ 담당 업무
 1. **이메일, 비밀번호 유효성 검증 기능**
   - 유효하지 않은 이메일 또는 비밀번호를 클라이언트로부터 입력받았을 때 상태코드(400)와 에러 메시지를 반환시키기 위해 정규표현식을 사용하여 유효성 검증 기능을 구현했습니다. 
   - 해당 기능은 회원가입과 로그인 API에서 모두 사용될 수 있으므로 재사용성을 고려하여 utils폴더에 별도 구현했습니다.
