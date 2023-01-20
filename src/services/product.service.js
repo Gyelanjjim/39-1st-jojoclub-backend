@@ -1,14 +1,14 @@
 const productDao = require("../models/product.dao");
 
 const getProducts = async (gender, scent, orderBy, offset, limitNum) => {
-  const whereParams ={gender, scent};
+  const whereParams = { gender, scent };
   const scentFilterBuilder = (value) => { 
-    if(!value)return "";
+    if(!value) return "";
     return `sc.name IN ('${  value.join("\', \'")  }')`; 
   }; 
 
   const genderFilterBuilder = (value) => { 
-    if(!value)return "";
+    if(!value) return "";
     return `g.name IN ('${  value.join("\', \'")  }')`; 
   }; 
   const makeProductQueryBuilders = (params) => { 
@@ -23,15 +23,15 @@ const getProducts = async (gender, scent, orderBy, offset, limitNum) => {
   }; 
   
   const orderByQuery = (orderBySelected) => {
-    if(!orderBySelected){ return "";}
+    if(!orderBySelected) return "";
     return `ORDER BY ${orderBySelected}`;
   }
   const limitQuery = (limitNumSelected, offsetSelected) => {
-    if(!limitNumSelected){ return "";}
+    if(!limitNumSelected) return "";
     return `LIMIT ${limitNumSelected} ${offsetQuery(offsetSelected)}`;
   }
   const offsetQuery = (offsetSelected) => {
-    if(!offsetSelected){ return "";}
+    if(!offsetSelected) return "";
     return `OFFSET ${offsetSelected}`;
   }
   let whereClause = makeProductQueryBuilders(whereParams)
