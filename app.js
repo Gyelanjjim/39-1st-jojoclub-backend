@@ -22,5 +22,5 @@ app.get("/ping", function (req, res) {
 const PORT = process.env.PORT;
 
 app.listen(PORT, () => {
-  console.log("Listening on Port ${PORT}");
+  console.log(`Listening on Port ${PORT}`);
 });
